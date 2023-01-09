@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialGround home page matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    id="react-root"
+  >
+    <div
+      className="login"
+    >
+      <div
+        className="form-container"
+      >
+        <form
+          className="login-form"
+          id="login-form"
+          method="post"
+          onSubmit={[Function]}
+        >
+          <div
+            className="large-sg-header-homepage-redirect"
+          >
+            <a
+              href="/"
+            >
+              <div
+                aria-disabled="false"
+              >
+                <img
+                  alt="large_logo"
+                  className="large-logo"
+                  src={Object {}}
+                />
+              </div>
+            </a>
+          </div>
+          <div
+            className="errorMessage"
+          />
+          <div
+            className="form-divider"
+          >
+            <div
+              className="form-row-container"
+            >
+              <div
+                className="form-cell"
+              >
+                <label
+                  className="form-entry-box"
+                  htmlFor="formInput1"
+                >
+                  <span
+                    className="form-fields"
+                  >
+                    Enter Your Email
+                  </span>
+                  <input
+                    aria-label="Enter Your Email"
+                    aria-required="true"
+                    autoCapitalize="off"
+                    autoCorrect="off"
+                    className="form-field-entry"
+                    data-testid="loginUserEmail"
+                    id="formInput1"
+                    maxLength="100"
+                    name="email"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              className="form-row-container"
+            >
+              <div
+                className="form-cell"
+              >
+                <label
+                  className="form-entry-box"
+                  htmlFor="formInput2"
+                >
+                  <span
+                    className="form-fields"
+                  >
+                    Enter Your Password
+                  </span>
+                  <input
+                    aria-label="Enter Your Password"
+                    aria-required="true"
+                    autoCapitalize="off"
+                    autoCorrect="off"
+                    className="form-field-entry"
+                    data-testid="loginUserPw"
+                    id="formInput2"
+                    maxLength="100"
+                    name="password"
+                    onChange={[Function]}
+                    type="password"
+                    value=""
+                  />
+                </label>
+              </div>
+            </div>
+            <br />
+            <div
+              className="form-submit"
+            >
+              <button
+                className="submit-button"
+                type="submit"
+              >
+                <div
+                  className="button-label"
+                >
+                  Log In
+                </div>
+              </button>
+            </div>
+          </div>
+          <div
+            className="sign-up-container"
+          >
+            <p
+              className="sign-up-redirect"
+            >
+              Don't have an account? 
+              <a
+                href="./registration"
+              >
+                <span
+                  className="sign-up"
+                >
+                  Sign up
+                </span>
+              </a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

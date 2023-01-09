@@ -1,0 +1,61 @@
+/**
+Source: https://alvarotrigo.com/blog/css-text-animations/
+*/
+.welcome-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .welcome-word-1 {
+    --color-1: #fe955d;
+    --color-2: #008EAD; 
+    --color-3: #ffb4b3;
+  }
+  
+  .welcome-word-2 {
+    --color-1: #e1ba67;
+    --color-2: #86a9a5;
+    --color-3: #0d4d51;
+  }
+  
+  .welcome-word-3 {
+    --color-1: #aee4de;
+    --color-2: #d85814;
+    --color-3: #86a9a5;
+  }
+  
+  .welcome-word-4 {
+    --color-1: #008EAD;
+    --color-2: #fe955d;
+    --color-3: #ffb4b3;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  .welcome_screen, #welcome_swing {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    margin: auto;
+  }
+  
+  .welcome_title {
+    padding-top: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+  }
+
+  #welcome_swing {
+    height: 100%;
+    width: 13%;
+    
+  }
